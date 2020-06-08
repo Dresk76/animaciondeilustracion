@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+h1{
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+svg{
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+#barra1{
+    animation: barra1 1.4s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: left;
+}
+
+#barra2{
+    animation: barra2 1.4s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: left;
+}
+
+#barra3{
+    animation: barra3 1.4s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: left;
+}
+
+#barra4{
+    animation: barra4 1.4s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: left;
+}
+
+#barra5{
+    animation: barra5 1.4s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: left;
+}
+
+@keyframes barra1{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+@keyframes barra2{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+@keyframes barra3{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+@keyframes barra4{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+@keyframes barra5{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
